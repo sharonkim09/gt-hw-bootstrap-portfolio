@@ -1,8 +1,12 @@
 body{
-    background-color: gray;
+    /* background-color: gray; */
+    background: url(/assets/images/backdrop.jpeg);
 }
 .jumbotron{
     background-color: white !important;
+}
+img{
+    padding:10px;
 }
 footer{
     position: fixed;
@@ -11,4 +15,7 @@ footer{
     color:white;
     text-align:center;
     width:100%;
+}
+.navbar-brand{
+    background-color:skyblue;
 }
