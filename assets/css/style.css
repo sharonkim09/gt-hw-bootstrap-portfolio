@@ -38,3 +38,16 @@ img{
 .container{
     width:60%;
 }
+#contact-content{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    margin-top: 5%;
+    margin-right: 75%;
+    margin-bottom: 50%;
+    margin-left: 5%;
+    padding: 25px 25px 25px 25px;
+    text-align: left;
+}
