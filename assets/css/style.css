@@ -1,11 +1,23 @@
 body{
-    background-image: url(./assets/backdrop.jpeg);
+    /* background-image: url(./assets/backdrop.jpeg); */
+    background-color:gray;
 }
 .bg-primary{
     background-color: lime !important;
 }
 img{
-    padding:10px;
+    width: 400px;
+    height: 267px;
+}
+#home-content{
+    background-color:white;
+    width: 60%;
+    height: 70%;
+    margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+
 }
 /* footer{
     position: fixed;
