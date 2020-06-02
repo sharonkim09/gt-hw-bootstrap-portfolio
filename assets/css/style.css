@@ -9,20 +9,32 @@ img{
     width: 400px;
     height: 267px;
 }
+/* Structuring layout of the content of about me */
+#home-content{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    margin-top: 5%;
+    margin-right: 75%;
+    margin-bottom: 50%;
+    margin-left: 5%;
+    padding: 25px 25px 25px 25px;
+}
+/* Styling footer */
 .footer{
     background-color:burlywood;
     height:100%;
     color:white;
     padding:10px 0px 10px 0px;
     text-align: center;
-} */
+} 
+/* Changing navbar color */
 .navbar-brand{
     background-color:green;
 }
+/* Changing size based on screen size*/
 .container{
     width:60%;
-}
-
-.lead{
-    text-align:left;
 }
