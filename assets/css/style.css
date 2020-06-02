@@ -1,5 +1,5 @@
 body{
-    /* background-image: url(./assets/backdrop.jpeg); */
+    background-image: url(./assets/backdrop.jpeg);
     background-color:gray;
 }
 .bg-primary{
@@ -9,23 +9,12 @@ img{
     width: 400px;
     height: 267px;
 }
-#home-content{
-    background-color:white;
-    width: 60%;
-    height: 70%;
-    margin-top: ;
-    margin-right: ;
-    margin-bottom: ;
-    margin-left: ;
-
-}
-/* footer{
-    position: fixed;
-    width:100%;
-    background-color:yellow;
+.footer{
+    background-color:burlywood;
+    height:100%;
     color:white;
-    text-align:center;
-    width:100%;
+    padding:10px 0px 10px 0px;
+    text-align: center;
 } */
 .navbar-brand{
     background-color:green;
