@@ -1,9 +1,6 @@
 body{
     background-image: url("./assets/images/background.png");
 }
-
-h1{
-    background-color: red;
 }
 footer{
     position: fixed;
