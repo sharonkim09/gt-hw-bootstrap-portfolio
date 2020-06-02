@@ -1,6 +1,5 @@
 body{
-    /* background-color: gray; */
-    background: url(/assets/images/backdrop.jpeg);
+    background-image: url(./assets/backdrop.jpeg);
 }
 .jumbotron{
     background-color: white !important;
