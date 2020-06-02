@@ -1,20 +1,27 @@
 body{
     background-image: url(./assets/backdrop.jpeg);
 }
-.jumbotron{
-    background-color: white !important;
+.bg-primary{
+    background-color: lime !important;
 }
 img{
     padding:10px;
 }
-footer{
+/* footer{
     position: fixed;
     width:100%;
     background-color:yellow;
     color:white;
     text-align:center;
     width:100%;
-}
+} */
 .navbar-brand{
-    background-color:skyblue;
+    background-color:green;
+}
+.container{
+    width:60%;
+}
+
+.lead{
+    text-align:left;
 }
