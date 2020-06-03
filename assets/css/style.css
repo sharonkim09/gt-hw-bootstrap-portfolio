@@ -77,8 +77,10 @@ body{
     padding: 25px 25px 25px 25px;
     text-align: left;
 }
-/* Styling images in portfolio */
-#image-padding{
+/* Styling portfolio images */
+.portfolio-image{
+    float: left;
+    width:100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
