@@ -1,27 +1,35 @@
 /* Styling background image */
-body{
+
+body {
     background-image: url(https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-    background-color:gray;
+    background-color: gray;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 /* Styling Navigation bar */
-.bg-primary{
+
+.bg-primary {
     background-color: lime !important;
 }
 
+
 /* Styling aboutme image on index.html & to get text wrapped */
-.img{
-    float:left;
+
+.img {
+    float: left;
     width: 210px;
     height: 200px;
     margin-left: 5px;
     margin-bottom: 15px;
-    padding-right:5px;
-    
+    padding-right: 5px;
 }
+
+
 /* Structuring layout of the content of about me */
-#home-content{
+
+#home-content {
     background-color: white;
     position: relative;
     /* text-align: center; */
@@ -33,24 +41,36 @@ body{
     margin-left: 5%;
     padding: 25px 25px 25px 25px;
 }
+
+
 /* Styling footer */
-.footer{
-    background-color:burlywood;
-    height:100%;
-    color:white;
-    padding:10px 0px 10px 0px;
+
+.footer {
+    background-color: burlywood;
+    height: 100%;
+    color: white;
+    padding: 10px 0px 10px 0px;
     text-align: center;
-} 
+}
+
+
 /* Changing navbar brand color */
-.navbar-brand{
-    background-color:green;
+
+.navbar-brand {
+    background-color: green;
 }
+
+
 /* Changing size based on screen size*/
-.container{
-    width:60%;
+
+.container {
+    width: 100%;
 }
+
+
 /* Styling contact form  */
-#contact-content{
+
+#contact-content {
     background-color: white;
     position: relative;
     text-align: center;
@@ -63,8 +83,11 @@ body{
     padding: 25px 25px 25px 25px;
     text-align: left;
 }
+
+
 /* Styling portfolio content */
-#portfolio-content{
+
+#portfolio-content {
     background-color: white;
     position: relative;
     text-align: center;
@@ -77,10 +100,49 @@ body{
     padding: 25px 25px 25px 25px;
     text-align: left;
 }
+
+
 /* Styling portfolio images */
-.portfolio-image{
+
+.portfolio-image {
     float: left;
-    width:100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+/* Styling the text for the images */
+
+.portfolio-text {
+    position: absolute;
+    background-color: lightblue;
+    color: white;
+    bottom: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+
+/* media queries */
+
+
+/* Keeps style that I have for container for specific window sizes and breaks else */
+
+@media(min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media(max-width:960px) {
+    .container {
+        max-width: 960px;
+    }
 }
