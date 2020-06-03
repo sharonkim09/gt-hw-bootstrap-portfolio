@@ -1,19 +1,24 @@
+/* Styling background image */
 body{
-    background-image: url(./assets/backdrop.jpeg);
+    background-image: url(https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
     background-color:gray;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+/* Styling Navigation bar */
 .bg-primary{
     background-color: lime !important;
 }
-img{
-    width: 400px;
+.img{
+    width: 170px;
     height: 267px;
+    float:left;
 }
 /* Structuring layout of the content of about me */
 #home-content{
     background-color: white;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     width: 70%;
     height: 80%;
     margin-top: 5%;
@@ -30,7 +35,7 @@ img{
     padding:10px 0px 10px 0px;
     text-align: center;
 } 
-/* Changing navbar color */
+/* Changing navbar brand color */
 .navbar-brand{
     background-color:green;
 }
@@ -38,6 +43,7 @@ img{
 .container{
     width:60%;
 }
+/* Styling contact form  */
 #contact-content{
     background-color: white;
     position: relative;
@@ -51,6 +57,7 @@ img{
     padding: 25px 25px 25px 25px;
     text-align: left;
 }
+/* Styling portfolio content */
 #portfolio-content{
     background-color: white;
     position: relative;
@@ -63,4 +70,9 @@ img{
     margin-left: 5%;
     padding: 25px 25px 25px 25px;
     text-align: left;
+}
+/* Styling images in portfolio */
+#image-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
