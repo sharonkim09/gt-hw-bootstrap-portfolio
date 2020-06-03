@@ -32,7 +32,7 @@
             margin-top: 5%;
             margin-right: 75%;
             margin-bottom: 50%;
-            margin-left: 5%;
+            /* margin-left: 5%; */
             padding: 25px 25px 25px 25px;
         }
         /* Styling footer */
@@ -129,6 +129,11 @@
         }
         
         @media(max-width:960px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+        @media(min-width:960px) {
             .container {
                 max-width: 960px;
             }
