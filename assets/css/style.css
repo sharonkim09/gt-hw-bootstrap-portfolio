@@ -9,10 +9,16 @@ body{
 .bg-primary{
     background-color: lime !important;
 }
+
+/* Styling aboutme image on index.html & to get text wrapped */
 .img{
-    width: 170px;
-    height: 267px;
     float:left;
+    width: 210px;
+    height: 200px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding-right:5px;
+    
 }
 /* Structuring layout of the content of about me */
 #home-content{
