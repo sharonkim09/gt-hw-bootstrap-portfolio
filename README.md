@@ -24,13 +24,19 @@ It is built using Bootstrap CSS and customized based on design mockups provided 
 
 
 ## Usage 
+This is a portfolio website in which everyone can see and access my personal portfolio.
+This assignment utilizes Bootstrap CSS Framework(containers, rows, and columns) to create a mobile responsive portfolio. 
 
 [Deployed Portfolio Site](https://sharonkim09.github.io/gt-hw-bootstrap-portfolio/)
 
-[Home](./assets/images/home.png)
+![Home](./assets/images/home-about-page.png)
+
+![Contact](./assets/images/contact-me.png)
+
+![Portfolio](./assets/images/portfolio-page.png)
 ## Credits
 
-This site was designed by the curriculum team. The design was provided to me. 
+This site was designed by the curriculum team. The design/mockup was provided to me. 
 
 Credit to the Twitter Bootstrap team for designing an awesome CSS Library.
 
