@@ -21,19 +21,32 @@
             margin-bottom: 15px;
             padding-right: 5px;
         }
+        #home-image{
+            float:left;
+        }
+        .block{
+           background-color:white;
+        }
+        .block-header{
+            padding:30px;
+            font-size: 2.5rem;
+        }
         /* Structuring layout of the content of about me */
-        
+/*         
         #home-content {
             background-color: white;
             position: relative;
             /* text-align: center; */
-            width: 85%;
+            /* width: 85%;
             height: 80%;
             margin-top: 5%;
             margin-right: 75%;
-            margin-bottom: 50%;
+            margin-bottom: 50%; */
             /* margin-left: 5%; */
-            padding: 25px 25px 25px 25px;
+            /* padding: 25px 25px 25px 25px; */
+        /* } */ 
+        main{
+            margin:80px 0;
         }
         /* Styling footer */
         
@@ -56,6 +69,10 @@
         
         .container {
             width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right:auto;
+            margin-left:auto;
         }
         /* Styling contact form  */
         
@@ -73,7 +90,6 @@
             text-align: left;
         }
         /* Styling portfolio content */
-        
         #portfolio-content {
             background-color: white;
             position: relative;
