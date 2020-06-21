@@ -1,7 +1,7 @@
         /* Styling background image */
         
         body {
-            background-image: url(https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdGqlNK8eY7WDMaPPF5MNYMkcR4184kw_n-7ylRXkMGdsWCE8c&usqp=CAU);
             background-color: gray;
             background-repeat: no-repeat;
             background-size: cover;
@@ -61,7 +61,7 @@
         /* Changing navbar brand color */
         
         .navbar-brand {
-            background-color: mediumturquoise;
+            background-color: teal;
             margin-left:2%;
             padding:5px 10px 5px 10px;
         }
@@ -129,6 +129,10 @@
         /* styling the heading tags */
         h1{
             color: slategray;
+        }
+        #project-pic{
+            width:100px;
+            height:100px;
         }
         /* media queries */
         /* Keeps style for container for specific window sizes and breaks else */
