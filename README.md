@@ -29,11 +29,11 @@ This assignment utilizes Bootstrap CSS Framework(containers, rows, and columns) 
 
 [Deployed Portfolio Site](https://sharonkim09.github.io/gt-hw-bootstrap-portfolio/)
 
-![Home](./assets/images/about-me.png)
+![Home](./assets/images/about-screenshot.png)
 
-![Contact](./assets/images/contact.png)
+![Contact](./assets/images/contact-screenshot.png)
 
-![Portfolio](./assets/images/portfolio.png)
+![Portfolio](./assets/images/portfolio-screenshot.png)
 ## Credits
 
 This site was designed by the curriculum team. The design/mockup was provided to me. 
