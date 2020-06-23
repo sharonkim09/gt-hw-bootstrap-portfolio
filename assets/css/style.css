@@ -87,7 +87,7 @@
             margin-bottom: 50%;
             margin-left: 5%;
             padding: 25px 25px 25px 25px;
-            text-align: left;
+            /* text-align: left; */
         }
         /* Styling portfolio content */
         #portfolio-content {
