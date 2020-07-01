@@ -1,10 +1,16 @@
         /* Styling background image */
-        
+        /* .container{
+            background: rgba(0, 0, 0, 0.5);
+        } */
         body {
             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdGqlNK8eY7WDMaPPF5MNYMkcR4184kw_n-7ylRXkMGdsWCE8c&usqp=CAU);
             background-color: gray;
             background-repeat: no-repeat;
             background-size: cover;
+            /* color:white; */
+        }
+        a{
+            color:white;
         }
         /* Styling Navigation bar */
         
@@ -25,7 +31,7 @@
             float:left;
         }
         .block{
-           background-color:white;
+           /* background-color:white; */
         }
         .block-header{
             padding:30px;
@@ -34,7 +40,8 @@
         /* Structuring layout of the content of about me */
  
         #home-content {
-            background-color: white;
+            /* background-color: white; */
+            background: rgba(0, 0, 0, 0.5);
             /* position: relative; */
             /* text-align: center;  */
              width: 85%;
@@ -77,7 +84,8 @@
         /* Styling contact form  */
         
         #contact-content {
-            background-color: white;
+            /* background-color: white; */
+            background: rgba(0, 0, 0, 0.5);
             position: relative;
             text-align: center;
             width: 70%;
@@ -91,7 +99,8 @@
         }
         /* Styling portfolio content */
         #portfolio-content {
-            background-color: white;
+            /* background-color: white; */
+            background: rgba(0, 0, 0, 0.5);
             position: relative;
             text-align: center;
             width: 85%;
@@ -102,6 +111,7 @@
             margin-left: 5%;
             padding: 25px 25px 25px 25px;
             text-align: left;
+            color:white;
         }
         /* Styling portfolio images */
         
@@ -128,7 +138,10 @@
 
         /* styling the heading tags */
         h1{
-            color: slategray;
+            color: white;
+        }
+        p, li{
+            color:white;
         }
         #project-pic{
             width:100px;
